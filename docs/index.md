@@ -3,6 +3,12 @@ title: Hello World!
 description: This is a description
 ---
 
+export const FancyButton = ({ text = "Press" }) => {
+  return (
+    <button onClick={() => console.log(text)}>{text}</button>
+  )
+}
+
 # Markdown: Syntax
 
 Horizontal Rule: 
@@ -10,6 +16,8 @@ Horizontal Rule:
 ----
 
 ## Custom Components
+
+<FancyButton text="Press me" />
 
 ### Tabs
 
