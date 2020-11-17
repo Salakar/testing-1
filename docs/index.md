@@ -51,6 +51,24 @@ Horizontal Rule:
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>
 
+### Code block
+
+```js
+console.log('Hello World');
+```
+
+```jsx
+function Foo() {
+  return (
+    <div></div>
+  );
+}
+```
+
+```bash:foo/bar.sh
+cd foo/
+```
+
 ## Overview
 
 ### Philosophy
