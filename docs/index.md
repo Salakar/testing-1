@@ -65,15 +65,11 @@ function Foo() {
 }
 ```
 
-```bash:/foo/bar.sh
-cd foo/
-```
-
 ```bash title="/foo/bar.sh"
 cd foo/
 ```
 
-```bash foo
+```bash live
 cd foo/
 ```
 
