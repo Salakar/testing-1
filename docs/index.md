@@ -69,7 +69,7 @@ function Foo() {
 cd foo/
 ```
 
-```bash live
+```jsx live
 cd foo/
 ```
 
