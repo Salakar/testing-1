@@ -116,9 +116,9 @@ Danger danger, mayday!
 
 ## Custom Variables
 
-This should say "bar": {{ foo }}
+This should say "bar": `{{ foo }}`
 
-This should say "foo": {{ bar.baz }}
+This should say "baz": `{{ bar.baz }}`
 
 ## Images
 
