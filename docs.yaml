@@ -1,2 +1,7 @@
 ---
 name: Testing
+
+variables:
+  foo: bar
+  bar:
+    baz: baz
