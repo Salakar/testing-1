@@ -1,6 +1,30 @@
 ---
 name: Testing
 
+sidebar:
+- - Overview
+  - "/"
+- - Raw HTML
+  - "/html"
+- - Live MDX
+  - "/live"
+- - Example Redirect
+  - "/redirect"
+- - Nested Sidebar
+  - - Example 1
+    - "/foo"
+  - - Example 2
+    - "/bar"
+  - - Example 3
+    - "/baz"
+  - - Nested...
+    - - Example 1
+      - "/foo/foo"
+    - - Example 2
+      - "/bar/bar"
+    - - Example 3
+      - "/baz/baz"
+
 variables:
   foo: bar
   bar:
