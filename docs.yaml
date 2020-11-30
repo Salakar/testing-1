@@ -11,19 +11,19 @@ sidebar:
 - - Example Redirect
   - "/redirect"
 - - Nested Sidebar
-  - - Example 1
-    - "/foo"
-  - - Example 2
-    - "/bar"
-  - - Example 3
-    - "/baz"
-  - - Nested...
-    - - Example 1
-      - "/foo/foo"
+  - - - Example 1
+      - "/foo"
     - - Example 2
-      - "/bar/bar"
+      - "/bar"
     - - Example 3
-      - "/baz/baz"
+      - "/baz"
+    - - Nested...
+      - - - Example 1
+          - "/foo/foo"
+        - - Example 2
+          - "/bar/bar"
+        - - Example 3
+          - "/baz/baz"
 
 variables:
   foo: bar
