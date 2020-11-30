@@ -114,6 +114,12 @@ Warning! You better pay attention!
 Danger danger, mayday!
 :::
 
+## Custom Variables
+
+This should say "bar": {{ foo }}
+
+This should say "foo": {{ bar.baz }}
+
 ## Images
 
 ### Local Image
