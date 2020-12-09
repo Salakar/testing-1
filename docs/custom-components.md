@@ -96,3 +96,13 @@ To add a caption to images, provide the cap`tion property:
 ```
 
 <Image src="https://via.placeholder.com/350x150" caption="A pretty caption!" />
+
+## `<YouTube />`
+
+The `YouTube` component renders an embedded YouTube video by proving a video id:
+
+```
+<YouTube id="dQw4w9WgXcQ" />
+```
+
+<YouTube id="dQw4w9WgXcQ" />
