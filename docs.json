@@ -22,7 +22,7 @@
     ]
   ],
   "variables": {
-    "foo: "foo",
+    "foo": "foo",
     "bar": "bar"
   }
 }
