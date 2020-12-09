@@ -71,3 +71,60 @@ The component also allows you to synchronize selected tab choices by providing a
   <TabItem value="orange">This is an orange 🍊</TabItem>
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>
+
+## `<Image />`
+
+Basic Markdown syntax for images works out of the box (e.g. `![alt tag](src))`, however using the `Image`
+component directly allows for a bit more control on some of the properties.
+
+### Zooming
+
+By default, images are not zoomable (unless overrided via [configuration](/configuration)). Pass the `zoom` property to the component to enable image zooming:
+
+```
+<Image src="https://via.placeholder.com/350x150" zoom />
+```
+
+<Image src="https://via.placeholder.com/350x150" zoom />
+
+### Captions
+
+To add a caption to images, provide the cap`tion property:
+
+```
+<Image src="https://via.placeholder.com/350x150" caption="A pretty caption!" />
+```
+
+<Image src="https://via.placeholder.com/350x150" caption="A pretty caption!" />
+
+## `<Heading />`
+
+The `Heading` component renders a heading tag, by proving a `type` property:
+
+```
+<Heading type="h1">Heading 1</Heading>
+<Heading type="h2">Heading 2</Heading>
+<Heading type="h3">Heading 3</Heading>
+<Heading type="h4">Heading 4</Heading>
+<Heading type="h5">Heading 5</Heading>
+<Heading type="h6">Heading 6</Heading>
+```
+
+<Heading type="h1">Heading 1</Heading>
+<Heading type="h2">Heading 2</Heading>
+<Heading type="h3">Heading 3</Heading>
+<Heading type="h4">Heading 4</Heading>
+<Heading type="h5">Heading 5</Heading>
+<Heading type="h6">Heading 6</Heading>
+
+In most cases, using this component is not required and raw Markdown can be used instead.
+
+## `<YouTube />`
+
+The `YouTube` component renders an embedded YouTube video by proving a video id:
+
+```
+<YouTube id="dQw4w9WgXcQ" />
+```
+
+<YouTube id="dQw4w9WgXcQ" />
