@@ -138,9 +138,9 @@ This should say "baz": `{{ bar.baz }}`
 
 <Image src="https://images.unsplash.com/photo-1605896403910-0e4217c2e3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80" alt="Polariod" caption="Image with a caption" />
 
-### No Zoom
+### With Zoom
 
-<Image src="https://images.unsplash.com/photo-1605940169729-b73badb83639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Polariod - No Zoom" caption="No Zoom Enabled" zoom={false} />
+<Image src="https://images.unsplash.com/photo-1605940169729-b73badb83639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Polariod - No Zoom" caption="No Zoom Enabled" zoom={true} />
 
 ## Overview
 
