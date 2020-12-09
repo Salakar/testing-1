@@ -6,7 +6,8 @@
     "indexName": "docsearch"
   },
   "navigation": [
-    ["Testing", "https://google.com"]
+    ["Testing", "https://google.com"],
+    ["Testing 2", "https://google.com"]
   ],
   "sidebar": [
     ["Overview", "/"],
