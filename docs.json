@@ -1,0 +1,28 @@
+{
+  "name": "Testing",
+  "twitter": "ehesp",
+  "docsearch": {
+    "apiKey": "25626fae796133dc1e734c6bcaaeac3c",
+    "indexName": "docsearch"
+  },
+  "navigation": [
+    ["Testing", "https://google.com"]
+  ],
+  "sidebar": [
+    ["Overview", "/"],
+    ["Nested",
+      ["1. Foo", "/foo"],
+      ["2. Bar", "/bar"],
+      ["3. Baz", "/baz"],
+      ["Sub-Nested",
+        ["1. Foo", "/sub/foo"],
+        ["2. Bar", "/sub/bar"],
+        ["3. Baz", "/sub/baz"]
+      ]
+    ]
+  ],
+  "variables": {
+    "foo: "foo",
+    "bar": "bar"
+  }
+}
