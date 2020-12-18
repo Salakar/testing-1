@@ -25,5 +25,11 @@
   "variables": {
     "foo": "foo",
     "bar": "bar"
-  }
+  },
+  "pages": [
+    "/",
+    "/custom-components",
+    "/open-tag",
+    "/error"
+  ],
 }
