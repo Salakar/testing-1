@@ -26,7 +26,7 @@
     "foo": "foo",
     "bar": "bar"
   },
-  "pages": [
+  "paths": [
     "/",
     "/custom-components",
     "/open-tag",
