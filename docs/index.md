@@ -57,7 +57,7 @@ Horizontal Rule:
 console.log('Hello World');
 ```
 
-```jsx
+```jsx {2}
 function Foo() {
   return (
     <div></div>
