@@ -81,7 +81,7 @@ function Clock(props) {
   });
 
   function tick() {
-    setDate(new Date());
+    <mark>setDate(new Date());</mark>
   }
 
   return (
