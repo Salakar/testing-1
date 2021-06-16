@@ -3,6 +3,10 @@ title: Hello World!
 description: This is a description
 ---
 
-```bash title=/foo/bar.sh
-cd foo/
+```jsx {2} foo title="bar"
+function Foo() {
+  return (
+    <div></div>
+  );
+}
 ```
