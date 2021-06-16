@@ -5,6 +5,24 @@ description: This is a description
 
 # Markdown: Syntax
 
+### Code block
+
+```js
+console.log('Hello World');
+```
+
+```jsx {2} foo title="bar"
+function Foo() {
+  return (
+    <div></div>
+  );
+}
+```
+
+```bash title=/foo/bar.sh
+cd foo/
+```
+
 ```jsx live
 function Clock(props) {
   const [date, setDate] = useState(new Date());
