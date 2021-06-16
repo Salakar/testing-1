@@ -289,8 +289,6 @@ To make lists look nice, you can wrap items with hanging indents:
 
 But if you want to be lazy, you don't have to:
 
-But if you want to be lazy, you don't have to:
-
 *   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
 viverra nec, fringilla in, laoreet vitae, risus.
@@ -336,4 +334,6 @@ to be indented *twice* -- 8 spaces or two tabs:
 
 *   A list item with a code block:
 
-        <code goes here>
+        ```text
+        raw code!
+        ```
