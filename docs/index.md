@@ -391,3 +391,7 @@ Unlike a pre-formatted code block, a code span indicates code within a
 normal paragraph. For example:
 
 Use the `printf()` function.
+
+## Invalid Components
+
+<Foo bar="123" />
