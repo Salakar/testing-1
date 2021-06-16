@@ -9,49 +9,7 @@ Horizontal Rule:
 
 ----
 
-## Custom Components
 
-### Tabs
-
-<Tabs
-  groupId="test"
-  defaultValue="apple"
-  values={[
-    {label: 'Apple', value: 'apple'},
-    {label: 'Orange', value: 'orange'},
-    {label: 'Banana', value: 'banana'},
-  ]}>
-  <TabItem value="apple">This is an apple 🍎</TabItem>
-  <TabItem value="orange">This is an orange 🍊</TabItem>
-  <TabItem value="banana">This is a banana 🍌</TabItem>
-</Tabs>
-
-<Tabs
-  groupId="test"
-  defaultValue="orange"
-  values={[
-    {label: 'Apple', value: 'apple'},
-    {label: 'Orange', value: 'orange'},
-    {label: 'Banana', value: 'banana'},
-  ]}>
-  <TabItem value="apple">This is an apple 🍎</TabItem>
-  <TabItem value="orange">This is an orange 🍊</TabItem>
-  <TabItem value="banana">This is a banana 🍌</TabItem>
-</Tabs>
-
-<Tabs
-  defaultValue="banana"
-  values={[
-    {label: 'Apple', value: 'apple'},
-    {label: 'Orange', value: 'orange'},
-    {label: 'Banana', value: 'banana'},
-  ]}>
-  <TabItem value="apple">This is an apple 🍎</TabItem>
-  <TabItem value="orange">This is an orange 🍊</TabItem>
-  <TabItem value="banana">This is a banana 🍌</TabItem>
-</Tabs>
-
-### Code block
 
 ```js
 console.log('Hello World');
