@@ -69,7 +69,7 @@ function Foo() {
 cd foo/
 ```
 
-```jsx live
+```jsx
 function Clock(props) {
   const [date, setDate] = useState(new Date());
   useEffect(() => {
