@@ -394,4 +394,6 @@ Use the `printf()` function.
 
 ## Invalid Components
 
+Below is the component `<Foo />` which doesn't actually exist:
+
 <Foo bar="123" />
