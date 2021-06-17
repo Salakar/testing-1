@@ -21,7 +21,10 @@ Horizontal Rule:
     {label: 'Orange', value: 'orange'},
     {label: 'Banana', value: 'banana'},
   ]}>
-<TabItem value="apple">This is an apple 🍎</TabItem>
+  <TabItem value="apple">
+    ### Markdown inside components!
+    This is an apple 🍎
+  </TabItem>
   <TabItem value="orange">This is an orange 🍊</TabItem>
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>
