@@ -25,9 +25,9 @@
   "variables": {
 		"foo": "foo",
 		"bar": "bar",
-		"foo": {
+		"baz": {
 			"bar": {
-				"baz": "baz"
+				"foo": "baz"
 			}
 		}
 	},
