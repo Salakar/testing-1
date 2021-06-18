@@ -30,7 +30,6 @@ Melos solves this problem by overriding local files which the Dart analyzer uses
 exists (defined in the `melos.yaml` file) and a different local package has it listed as a dependency, it will be linked
 regardless of whether a version has been specified.
 
-
 ### Benefits
 
 - All local packages in the repository can be interlinked by Melos to point to their local directories rather than 'remote' _without pubspec.yaml modifications_.
@@ -45,16 +44,11 @@ regardless of whether a version has been specified.
 
 Bootstrap supports [all package filtering options](/filters), therefore if you wanted to you could bootstrap only a specific subset of your packages, for example:
 
-```yaml
-# melos.yaml
-# ...
-scripts:
-  postbootstrap: dart pub run build_runner build
-# ...
+```bash
+# Only bootstrap packages that have
+# changed since the main branch.
+melos bootstrap --since="main"
 ```
-
-This is useful to ensure any local project requirements, such as generated files being built, are met when anyone is working on
-your mono repo code base, e.g. external contributors.
 
 ## Adding a postboostrap lifecycle script
 
