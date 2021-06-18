@@ -31,3 +31,32 @@ exists (defined in the `melos.yaml` file) and a different local package has it l
 regardless of whether a version has been specified.
 
 
+
+
+## Combining with filters
+
+Bootstrap supports [all package filtering options](/filters), therefore if you wanted to you could bootstrap only a specific subset of your packages, for example:
+
+```bash
+# Only bootstrap packages that have
+# changed since the main branch.
+melos bootstrap --since="main"
+```
+
+## Adding a postboostrap lifecycle script
+
+Melos supports various command lifecycle hooks that can be defined in your `melos.yaml`.
+
+For example, if you needed to run something such as a build runner automatically after `melos bootstrap` is ran, you can add a
+`postbootstrap` script:
+
+```yaml
+# melos.yaml
+# ...
+scripts:
+  postbootstrap: dart pub run build_runner build
+# ...
+```
+
+This is useful to ensure any local project requirements, such as generated files being built, are met when anyone is working on
+your mono repo code base, e.g. external contributors.
