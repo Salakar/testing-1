@@ -23,14 +23,14 @@
     ]]
   ],
   "variables": {
-    "foo": "foo",
-    "bar": "bar",
-    "foo": {
-      "bar": {
-        "baz": "baz"
-      },
-    },
-  },
+		"foo": "foo",
+		"bar": "bar",
+		"foo": {
+			"bar": {
+				"baz": "baz"
+			}
+		}
+	},
   "paths": [
     "/",
     "/custom-components",
