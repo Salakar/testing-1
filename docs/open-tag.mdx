@@ -41,14 +41,20 @@ regardless of whether a version has been specified.
   - **Example Scenario**: Package `A` relies on package `B` from the same mono repo. Package `B` gets a minor API change. Via `pub get` on package `A` the dart analyzer and IDEs report no issues with the package as it installed package `B` from the remote pub registry and not local (which hasn't been published yet). With Melos, the dart analyzer / IDEs would highlight this issue immediately since local versions are used. The same applies for non-breaking deprecations, package `A` wouldn't show there was a deprecated API in use without being interlinked through Melos.
 - Interlinking allows working on new, not yet published (or private) packages easily, without defining dependency overrides.
 
-## Combining with filters
+## Adding a postboostrap lifecycle script
 
-Bootstrap supports [all package filtering options](/filters), therefore if you wanted to you could bootstrap only a specific subset of your packages, for example:
+Melos supports various command lifecycle hooks that can be defined in your `melos.yaml`.
 
-```bash
-# Only bootstrap packages that have
-# changed since the main branch.
-melos bootstrap --since="main"
+For example, if you needed to run something such as a build runner automatically after `melos bootstrap` is ran, you can add a
+`postbootstrap` script:
+
+```yaml
+# melos.yaml
+# ...
+scripts:
+  postbootstrap: dart pub run build_runner build
+# ...
 ```
 
-
+This is useful to ensure any local project requirements, such as generated files being built, are met when anyone is working on
+your mono repo code base, e.g. external contributors.
