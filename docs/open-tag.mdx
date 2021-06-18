@@ -62,3 +62,11 @@ your mono repo code base, e.g. external contributors.
 ## Combining with filters
 
 Bootstrap supports [all package filtering options](/filters), therefore if you wanted to you could bootstrap only a specific subset of your packages, for example:
+
+```yaml
+# melos.yaml
+# ...
+scripts:
+  postbootstrap: dart pub run build_runner build
+# ...
+```
