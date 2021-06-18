@@ -24,7 +24,12 @@
   ],
   "variables": {
     "foo": "foo",
-    "bar": "bar"
+    "bar": "bar",
+    "foo": {
+      "bar": {
+        "baz": "baz"
+      },
+    },
   },
   "paths": [
     "/",
