@@ -7,3 +7,4 @@ export const FancyButton = ({ text = "Press" }) => {
 }
 
 <FancyButton text="Foo" />
+m
