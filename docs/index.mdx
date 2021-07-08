@@ -14,46 +14,7 @@ Horizontal Rule:
 ### Tabs
 
 
-### Code block
 
-```js
-console.log('Hello World');
-```
-
-```jsx {2} foo title='bar'
-function Foo() {
-  return (
-    <div></div>
-  );
-}
-```
-
-```bash title=/foo/bar.sh
-cd foo/
-```
-
-```jsx
-function Clock(props) {
-  const [date, setDate] = useState(new Date());
-  useEffect(() => {
-    var timerID = setInterval(() => tick(), 1000);
-
-    return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
-
-  function tick() {
-    <mark>setDate(new Date());</mark>
-  }
-
-  return (
-    <div>
-      <h2>It is {date.toLocaleTimeString()}.</h2>
-    </div>
-  );
-}
-```
 
 ## Callouts
 
