@@ -5,10 +5,7 @@
     "apiKey": "25626fae796133dc1e734c6bcaaeac3c",
     "indexName": "docsearch"
   },
-  "navigation": [
-    ["Testing", "https://google.com"],
-    ["Testing 2", "https://google.com"]
-  ],
+  "navigation": [],
   "sidebar": [
     ["Overview", "/"],
     ["Nested", [
